@@ -1,0 +1,12 @@
+p{
+    font-size: 12pt;
+    font-family: Arial;
+}
+
+label{
+    font-weight: bold;
+}
+
+#email{
+    color:red;
+}

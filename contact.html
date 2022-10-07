@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <a href="#ancre1">Aller directement au paragraphe</a>
+    </div>
+    <div>
+        <a href=" https://passeport.dauphine.fr/" onclick="window.open(this.href, '_blank'); return false;">Lien pour accéder au passeport de Dauphine</a>
+    </div>
+    <form action="" method="post">
+        <div>
+            <label for="firstname" value="">First Name: </label>
+            <input type="text" id="firstname" maxlength="10">
+            <input type="button" id="bt" value="Change Label Text" onclick="changeLabel()" />
+        </div>
+        <div>
+            <label for="middlename">Middle Name: </label>
+            <input type="text" id="middlename" maxlength="10">
+        </div>
+        <div>
+            <label for="lastname">Last Name: </label>
+            <input type="text" id="lastname" maxlength="10">
+        </div>
+
+        <div>
+            <input type="radio" id="genderM" name="gender" value="gender" checked>
+            <label for="gender">Male</label>
+        </div>
+        <div>
+            <input type="radio" id="genderF" name="gender" value="gender">
+            <label for="gender">Female</label>
+        </div>
+
+        <div>
+            <label for="phone">Phone number:</label>
+            <input type="tel" id="phone">
+        </div>
+
+        <div>
+            <label id="email" for="email">Email:</label>
+            <input type="email" id="email" size="30">
+        </div>
+
+        <div>
+            <input type="checkbox" id="contact">
+            <label for="contact">Contact:</label>
+        </div>
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Envoyer le formulaire">
+    </form>
+    <img src="https://www.journaldugeek.com/content/uploads/2022/05/template-jdg-42.jpg" height="500">
+
+    <p id="ancre1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+</body>
+</html>
